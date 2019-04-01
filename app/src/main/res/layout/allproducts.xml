@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/cardview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8.0dp"
+            android:layout_marginTop="4.0dp"
+            android:layout_marginRight="8.0dp"
+            android:layout_marginBottom="4.0dp"
+            card_view:cardCornerRadius="2dp">
+
+            <LinearLayout
+                android:id="@+id/layout_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView"
+
+
+                    android:layout_width="match_parent"
+                    android:layout_height="200.0dp"
+                    android:background="@drawable/ic_imageforth" />
+
+                <LinearLayout
+                    android:id="@+id/layout_item_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="4dp"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.8"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1 book at ₹ 12.49"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                        <CheckBox
+                            android:id="@+id/checkbox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="BUY NOW"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/cardview1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cardview"
+            android:layout_marginLeft="8.0dp"
+            android:layout_marginTop="4.0dp"
+            android:layout_marginRight="8.0dp"
+            android:layout_marginBottom="4.0dp"
+            card_view:cardCornerRadius="2dp">
+
+            <LinearLayout
+                android:id="@+id/layout_item1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+
+                    android:id="@+id/imageView1"
+
+
+                    android:layout_width="match_parent"
+                    android:layout_height="200.0dp"
+                    android:background="@drawable/ic_cd" />
+
+                <LinearLayout
+                    android:id="@+id/layout_item_desc1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="4dp"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.8"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1 music CD at ₹ 14.99"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                        <CheckBox
+                            android:id="@+id/checkbox1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="BUY NOW"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/cardview2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cardview1"
+            android:layout_marginLeft="8.0dp"
+            android:layout_marginTop="4.0dp"
+            android:layout_marginRight="8.0dp"
+            android:layout_marginBottom="4.0dp"
+            card_view:cardCornerRadius="2dp">
+
+            <LinearLayout
+                android:id="@+id/layout_item2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+
+                    android:id="@+id/imageView2"
+
+
+                    android:layout_width="match_parent"
+                    android:layout_height="200.0dp"
+                    android:background="@drawable/chocolatebar" />
+
+                <LinearLayout
+                    android:id="@+id/layout_item_desc2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="4dp"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.8"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1 chocolate bar at ₹ 0.85"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                        <CheckBox
+                            android:id="@+id/checkbox2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="BUY NOW"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/cardview3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cardview2"
+            android:layout_marginLeft="8.0dp"
+            android:layout_marginTop="4.0dp"
+            android:layout_marginRight="8.0dp"
+            android:layout_marginBottom="4.0dp"
+            card_view:cardCornerRadius="2dp">
+
+            <LinearLayout
+                android:id="@+id/layout_item3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+
+                    android:id="@+id/imageView3"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="200.0dp"
+                    android:background="@drawable/chocolate" />
+
+                <LinearLayout
+                    android:id="@+id/layout_item_desc3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="4dp"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.8"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1 imported box of chocolates at ₹ 10.00"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                        <CheckBox
+                            android:id="@+id/checkbox3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="BUY NOW"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/cardview4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cardview3"
+            android:layout_marginLeft="8.0dp"
+            android:layout_marginTop="4.0dp"
+            android:layout_marginRight="8.0dp"
+            android:layout_marginBottom="4.0dp"
+            card_view:cardCornerRadius="2dp">
+
+            <LinearLayout
+                android:id="@+id/layout_item4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+
+                    android:id="@+id/imageView4"
+
+
+                    android:layout_width="match_parent"
+                    android:layout_height="200.0dp"
+                    android:background="@drawable/coco" />
+
+                <LinearLayout
+                    android:id="@+id/layout_item_desc4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="4dp"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.8"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1 imported bottle of perfume at ₹ 47.50"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                        <CheckBox
+                            android:id="@+id/checkbox4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="BUY NOW"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/cardview5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cardview4"
+            android:layout_marginLeft="8.0dp"
+            android:layout_marginTop="4.0dp"
+            android:layout_marginRight="8.0dp"
+            android:layout_marginBottom="4.0dp"
+            card_view:cardCornerRadius="2dp">
+
+            <LinearLayout
+                android:id="@+id/layout_item5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+
+                    android:id="@+id/imageView5"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="200.0dp"
+                    android:background="@drawable/chanel" />
+
+                <LinearLayout
+                    android:id="@+id/layout_item_desc5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="4dp"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.8"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1 imported bottle of perfume at ₹ 27.99"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                        <CheckBox
+                            android:id="@+id/checkbox5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="BUY NOW"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/cardview6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cardview5"
+            android:layout_marginLeft="8.0dp"
+            android:layout_marginTop="4.0dp"
+            android:layout_marginRight="8.0dp"
+            android:layout_marginBottom="4.0dp"
+            card_view:cardCornerRadius="2dp">
+
+            <LinearLayout
+                android:id="@+id/layout_item6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+
+                    android:id="@+id/imageView6"
+
+
+                    android:layout_width="match_parent"
+                    android:layout_height="200.0dp"
+                    android:background="@drawable/perfume" />
+
+                <LinearLayout
+                    android:id="@+id/layout_item_desc6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="4dp"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.8"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1  bottle of perfume at ₹ 18.99"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                        <CheckBox
+                            android:id="@+id/checkbox6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="BUY NOW"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/cardview7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cardview6"
+            android:layout_marginLeft="8.0dp"
+            android:layout_marginTop="4.0dp"
+            android:layout_marginRight="8.0dp"
+            android:layout_marginBottom="4.0dp"
+            card_view:cardCornerRadius="2dp">
+
+            <LinearLayout
+                android:id="@+id/layout_item7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+
+                    android:id="@+id/imageView7"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="200.0dp"
+                    android:background="@drawable/headache" />
+
+                <LinearLayout
+                    android:id="@+id/layout_item_desc7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="4dp"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.8"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1 packet of headache pills at ₹ 9.75"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                        <CheckBox
+                            android:id="@+id/checkbox7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="BUY NOW"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/cardview8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cardview7"
+            android:layout_marginLeft="8.0dp"
+            android:layout_marginTop="4.0dp"
+            android:layout_marginRight="8.0dp"
+            android:layout_marginBottom="44dp"
+            card_view:cardCornerRadius="2dp">
+
+            <LinearLayout
+                android:id="@+id/layout_item8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+
+                    android:id="@+id/imageView8"
+
+
+                    android:layout_width="match_parent"
+                    android:layout_height="200.0dp"
+                    android:background="@drawable/chocolate2" />
+
+                <LinearLayout
+                    android:id="@+id/layout_item_desc8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="4dp"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.8"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1 box of imported chocolates at ₹ 11.25"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                        <CheckBox
+                            android:id="@+id/checkbox8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="BUY NOW"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:visibility="gone"
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:backgroundTint="#ffffff"
+            android:src="@drawable/ic_cart"
+            android:layout_margin="16dp" />
+
+
+
+
+        <Button
+            android:id="@+id/btn_confirm_prices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#E91E63"
+            android:foreground="?android:attr/selectableItemBackgroundBorderless"
+            android:text="Generate Billing Receipt"
+            android:textColor="#FFFFFF"
+            tools:targetApi="lollipop" />
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+</android.support.v4.widget.NestedScrollView>
