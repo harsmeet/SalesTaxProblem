@@ -99,7 +99,6 @@ public class AllProducts extends  Fragment{
 
                 Toast.makeText(getContext(),"Total Price: "+ TotalPrice +"Sales Taxes: "+TotalTax,Toast.LENGTH_SHORT).show();
 
-
                  Intent intent = new Intent(getContext(), ActivityDescription.class);
 
                 Bundle dataBundle = new Bundle();
@@ -110,9 +109,6 @@ public class AllProducts extends  Fragment{
                 intent.putExtras(dataBundle);
 
                 getActivity().startActivity(intent);
-
-
-
 
             }
         });
@@ -144,22 +140,10 @@ public class AllProducts extends  Fragment{
                                          boolean isChecked) {
                 if(isChecked){
                     Toast.makeText(getContext(),"1 book at ₹ 12.49",Toast.LENGTH_SHORT).show();
-
-
-
-
                     Double cD = Double.parseDouble(String.valueOf(12.49));
-//                    Double tax = Double.parseDouble(String.valueOf(1.15));
 
                     bookTotal = cD;
-
-//                    bookTax =  cD;
-
-
-
-
-
-
+                    
                 }else {
 
                     bookTotal = Double.valueOf(0);
